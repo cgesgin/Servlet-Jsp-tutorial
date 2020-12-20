@@ -16,7 +16,7 @@ public class HelloServlet extends HttpServlet{
 		protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 			
 			PrintWriter pw= resp.getWriter();
-			pw.print("hello Annotation Servlet ");
+			pw.print("Hello My first Annotation Servlet ");
 		}
  
 }
