@@ -1,5 +1,5 @@
 # Servlet-Jsp-tutorial
-Servlet ve jsp çalışmalaları
+Servlet, jsp ve Tomcat çalışmalaları
 * Kullanılan IDE Eclipse 2020-06
 ### Kaynaklar
 * https://www.javatpoint.com/servlet-tutorial
