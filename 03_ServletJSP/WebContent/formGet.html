@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Servlet Teknolojisi</title>
+</head>
+<body>
+	<form id="form1" action="requestget" method="get">		
+		<div></div>
+		<table id="table1" cellspacing="5px" cellpadding="5%">			
+			<tr>
+				<td align ="right">isim: </td>
+				<td><input type="text" name="firstName"/> </td> 
+			</tr>
+			<tr>
+				<td align ="right">soyad: </td>
+				<td><input type="text" name="latsName"/> </td> 
+			</tr>
+			<tr>
+				<td align ="right">Cinsiyet: </td>
+				<td>
+					<select name="gender">
+						<option value="Man" selected="selected">bay</option>
+						<option value="Woman" >Bayan</option>
+					</select>
+				</td>				
+			</tr>
+			<tr>
+				<td align="right">medeni hal</td>
+				<td>
+					<input type="radio" name="marital status" value="Bekar"/>bekar
+					<input type="radio" name="marital status" value="Dul"/>dul
+					<input type="radio" name="marital status" value="Evli"/>evli
+					<input type="radio" name="marital status" value="Javaci"/>javacı
+				</td>
+			</tr>
+			<tr>
+				<td align="right">diller</td>
+				<td>
+					<input type="checkbox" name="lang" value="Java"/>java
+					<input type="checkbox" name="lang" value="C"/>c
+					<input type="checkbox" name="lang" value="C++"/>c++
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="Submit" value="Gönder Get"/>				
+				</td>
+			</tr>
+		</table>	
+	</form>
+</body>
+</html>
